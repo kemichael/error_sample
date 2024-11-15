@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Comedian Management App</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div id="container">
+    <h2>好きな芸人を追加してね</h2>
+    <label for="comedian-name">コンビ名：</label>
+    <input type="text" id="comedian-name" placeholder="コンビ名を入力してください">
+    
+    <label for="agency">所属事務所：</label>
+    <input type="text" id="agency" placeholder="所属事務所を入力してください">
+    
+    <label for="comment">コメント：</label>
+    <input type="text" id="comment" placeholder="コメントを入力してください">
+    
+    <label for="rating">おすすめ度：</label>
+    <select id="rating">
+      <option value="☆☆☆☆☆">☆☆☆☆☆</option>
+      <option value="★☆☆☆☆">★☆☆☆☆</option>
+      <option value="★★☆☆☆">★★☆☆☆</option>
+      <option value="★★★☆☆">★★★☆☆</option>
+      <option value="★★★★☆">★★★★☆</option>
+      <option value="★★★★★">★★★★★</option>
+    </select>
+    
+    <button id="add-button">追加</button>
+    
+    <ul id="list"></ul>
+  </div>
+  
+<script src="sample.js"></script>
+</body>
+</html>
